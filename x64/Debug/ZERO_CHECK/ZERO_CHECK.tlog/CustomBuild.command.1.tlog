@@ -1,0 +1,10 @@
+^A:\NUMBERCHANGETOOL\CMAKEFILES\67F118501FC621BA1F42E913821C04B6\GENERATE.STAMP.RULE
+setlocal
+P:\CMake\bin\cmake.exe -SA:/NumberChangeTool -BA:/NumberChangeTool --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file A:/NumberChangeTool/NumberChangeTool.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

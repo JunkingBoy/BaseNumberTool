@@ -1,5 +1,5 @@
-﻿#include "numberImp.hpp"
-#include "numberFun.hpp"
+﻿#include "..\\headfile\\numberImp.hpp"
+#include "..\\headfile\\numberFun.hpp"
 
 int main()
 {

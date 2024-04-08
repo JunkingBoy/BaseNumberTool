@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+A:/NumberChangeTool/CMakeFiles/3.26.4/CMakeCCompiler.cmake
+A:/NumberChangeTool/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake
+A:/NumberChangeTool/CMakeFiles/3.26.4/CMakeRCCompiler.cmake
+A:/NumberChangeTool/CMakeFiles/3.26.4/CMakeSystem.cmake
+A:/NumberChangeTool/CMakeLists.txt
+P:/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+P:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+P:/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+P:/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+P:/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+P:/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+P:/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+P:/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+P:/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+P:/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+P:/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
