@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "P:/MingGwCompiler/mingw64/include"
+            ],
+            "defines": [],
+            "compilerPath": "P:/MingGwCompiler/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": ["-lstdc++"]
+        }
+    ],
+    "version": 4
+}
