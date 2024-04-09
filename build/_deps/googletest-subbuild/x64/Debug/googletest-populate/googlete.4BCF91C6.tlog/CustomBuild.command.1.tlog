@@ -1,0 +1,150 @@
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+P:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\64369E72E08869B9BF7649C8E774F64A\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\5EFF5B2905B5608B3B81C34086A7FEA5\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+P:\CMake\bin\cmake.exe -E make_directory A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6C87C5F265EB90060C01653E26CB03D6\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\NUMBERCHANGETOOL\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+P:\CMake\bin\cmake.exe -SA:/NumberChangeTool/build/_deps/googletest-subbuild -BA:/NumberChangeTool/build/_deps/googletest-subbuild --check-stamp-file A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

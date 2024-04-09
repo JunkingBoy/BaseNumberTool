@@ -49,23 +49,28 @@ namespace NumberFunction {
 
 	map<string, string> change_info_from_map(map<string, string>& dataMap, const string& part, const string& val) {
 		map<string, string> mapResult = dataMap;
-		if (part == "answer")
+
+		// symbol、part、base不可变,answer不可显示修改
+		if (part != "symbol" || part != "part" || part != "base" || part != "answer")
 		{
-			if (mapResult["symbol"] == "0")
+			if (part == "decimal" && mapResult["part"] == "10")
 			{
-				if (mapResult["decimal"] == "0")
-				{
-					mapResult["answer"] = "-" + mapResult["integer"];
-				}
-				else
-				{
-					mapResult["answer"] = "-" + mapResult["integer"] + "." + mapResult["decimal"];
-				}
+				mapResult[part] = "0";
 			}
-			else
-			{
-				mapResult[part] = val;
-			}
+			mapResult[part] = val;
+		}
+		if (mapResult["symbol"] == "0" && mapResult["part"] == "10")
+		{
+			mapResult["answer"] = mapResult["integer"];
+		}else if (mapResult["symbol"] == "0" && mapResult["part"] == "11")
+		{
+			mapResult["answer"] = mapResult["integer"] + mapResult["decimal"];
+		}else if (mapResult["symbol"] == "1" && mapResult["part"] == "10")
+		{
+			mapResult["answer"] = "-" + mapResult["integer"];
+		}else
+		{
+			mapResult["answer"] = "-" + mapResult["integer"] + '.' + mapResult["decimal"];
 		}
 
 		return mapResult;

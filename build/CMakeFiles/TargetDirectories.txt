@@ -1,0 +1,4 @@
+A:/NumberChangeTool/build/CMakeFiles/testTool.dir
+A:/NumberChangeTool/build/CMakeFiles/RUN_TESTS.dir
+A:/NumberChangeTool/build/CMakeFiles/ALL_BUILD.dir
+A:/NumberChangeTool/build/CMakeFiles/ZERO_CHECK.dir

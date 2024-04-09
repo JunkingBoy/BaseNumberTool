@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4BCF91C6-B114-3ACD-BFE1-EE294DAB84EB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>googletest-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+P:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\googletest-populate-gitinfo.txt;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -P A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\tmp\googletest-populate-cfgcmd.txt;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\64369e72e08869b9bf7649c8e774f64a\googletest-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd A:\NumberChangeTool\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\5eff5b2905b5608b3b81c34086a7fea5\googletest-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'googletest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+P:\CMake\bin\cmake.exe -E make_directory A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+P:\CMake\bin\cmake.exe -E touch A:/NumberChangeTool/buildgoogletest/src/googletest-populate-stamp/Debug/googletest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-install;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-download;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-update;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-patch;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-configure;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-build;A:\NumberChangeTool\buildgoogletest\src\googletest-populate-stamp\Debug\googletest-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\6c87c5f265eb90060c01653e26cb03d6\googletest-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+P:\CMake\bin\cmake.exe -SA:/NumberChangeTool/build/_deps/googletest-subbuild -BA:/NumberChangeTool/build/_deps/googletest-subbuild --check-stamp-file A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\3.26.4\CMakeSystem.cmake;A:\NumberChangeTool\buildgoogletest\tmp\googletest-populate-mkdirs.cmake;P:\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;P:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;P:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;P:\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;P:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;P:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;P:\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;P:\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;P:\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;P:\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;P:\CMake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;P:\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;P:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;P:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="A:\NumberChangeTool\build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{10F337A2-AC69-3B22-9D99-0EDF3DFEEE77}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\38b1a13d4191bf6b2548ce4f0d21e636\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\18c9a1805f012ee6bbd18502eab85ba4\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\4f4f7f8bc653107a5e3c8bdc153e4d25\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A:\NumberChangeTool\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E01EF063-C029-3883-A77D-627D378D29AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

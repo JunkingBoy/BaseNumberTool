@@ -306,6 +306,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A:\NumberChangeTool\src\AllChangeNumberFinal.cpp" />
+    <ClCompile Include="A:\NumberChangeTool\test\testnumber.cpp" />
+    <ClInclude Include="A:\NumberChangeTool\headfile\number.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="A:\NumberChangeTool\ZERO_CHECK.vcxproj">

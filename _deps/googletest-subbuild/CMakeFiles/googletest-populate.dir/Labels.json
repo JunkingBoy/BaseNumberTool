@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/4f4f7f8bc653107a5e3c8bdc153e4d25/googletest-populate.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/18c9a1805f012ee6bbd18502eab85ba4/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-build.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-download.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-install.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-test.rule"
+		},
+		{
+			"file" : "A:/NumberChangeTool/_deps/googletest-subbuild/CMakeFiles/38b1a13d4191bf6b2548ce4f0d21e636/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
