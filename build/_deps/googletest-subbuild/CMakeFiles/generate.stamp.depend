@@ -2,10 +2,8 @@
 A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeFiles/3.26.4/CMakeSystem.cmake
 A:/NumberChangeTool/build/_deps/googletest-subbuild/CMakeLists.txt
 A:/NumberChangeTool/buildgoogletest/tmp/googletest-populate-mkdirs.cmake
-P:/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake
 P:/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
 P:/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
-P:/CMake/share/cmake-3.26/Modules/CMakeSystem.cmake.in
 P:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
 P:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
 P:/CMake/share/cmake-3.26/Modules/ExternalProject.cmake
