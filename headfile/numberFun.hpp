@@ -64,7 +64,7 @@ namespace NumberFunction {
 			mapResult["answer"] = mapResult["integer"];
 		}else if (mapResult["symbol"] == "0" && mapResult["part"] == "11")
 		{
-			mapResult["answer"] = mapResult["integer"] + mapResult["decimal"];
+			mapResult["answer"] = mapResult["integer"] + '.' + mapResult["decimal"];
 		}else if (mapResult["symbol"] == "1" && mapResult["part"] == "10")
 		{
 			mapResult["answer"] = "-" + mapResult["integer"];
